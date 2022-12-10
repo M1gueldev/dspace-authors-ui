@@ -126,3 +126,5 @@ export function getRequestCopyModulePath() {
 }
 
 export const HEALTH_PAGE_PATH = 'health';
+
+export const AUTHOR_PAGE_PATH = 'autores';

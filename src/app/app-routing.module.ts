@@ -9,6 +9,7 @@ import {
 import {
   ACCESS_CONTROL_MODULE_PATH,
   ADMIN_MODULE_PATH,
+  AUTHOR_PAGE_PATH,
   BITSTREAM_MODULE_PATH,
   ERROR_PAGE,
   FORBIDDEN_PATH,
@@ -229,6 +230,11 @@ import { ThemedPageErrorComponent } from './page-error/themed-page-error.compone
             path: ACCESS_CONTROL_MODULE_PATH,
             loadChildren: () => import('./access-control/access-control.module').then((m) => m.AccessControlModule),
             canActivate: [GroupAdministratorGuard],
+          },
+          {
+            path: AUTHOR_PAGE_PATH,
+            loadChildren: () => import('./authors/authors.module')
+              .then((m) => m.AuthorsModule),
           },
           { path: '**', pathMatch: 'full', component: ThemedPageNotFoundComponent },
         ]

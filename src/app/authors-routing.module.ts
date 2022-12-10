@@ -6,21 +6,18 @@ import {AuthorsPageComponent} from './authors/authors-page/authors-page.componen
 
 const routes: Routes = [
   {
-    path: AuthorsRoute.concat('/id/:id'),
+    path: ('id/:id'),
     component: AuthorsDetailComponent
   },
   {
-    path: AuthorsRoute,
+    path: '',
     component: AuthorsPageComponent
   },
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes)
-  ],
-  exports: [
-    RouterModule
+    RouterModule.forChild(routes)
   ]
 })
 export class AuthorsRoutingModule { }
