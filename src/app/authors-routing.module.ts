@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {AuthorsPath} from "./authors/utils";
-import {AuthorsDetailComponent} from "./authors/authors-detail/authors-detail.component";
-import {AuthorsPageComponent} from "./authors/authors-page/authors-page.component";
+import {AuthorsRoute} from './authors/utils';
+import {AuthorsDetailComponent} from './authors/authors-detail/authors-detail.component';
+import {AuthorsPageComponent} from './authors/authors-page/authors-page.component';
 
 const routes: Routes = [
   {
-    path: AuthorsPath.concat('/id/:id'),
+    path: AuthorsRoute.concat('/id/:id'),
     component: AuthorsDetailComponent
   },
   {
-    path: AuthorsPath,
+    path: AuthorsRoute,
     component: AuthorsPageComponent
   },
 ];

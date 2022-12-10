@@ -15,7 +15,8 @@ export interface AuthorRequest {
 }
 
 const SERVER = 'http://localhost:8000/authors';
-export const AuthorsPath = '/autores';
+export const AuthorsRoute = 'autores';
+export const AuthorsPath = '/'.concat(AuthorsRoute);
 
 export const localServer = {
   server: SERVER,
