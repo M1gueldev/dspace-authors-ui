@@ -1,1 +1,16 @@
-<p>author-card works!</p>
+<div class="panel-body">
+  <div class="row">
+    <div class="col-md-6">
+      <a [href]="link" class="image-link pull-center ">
+        <img
+          alt="Thumbnail" class="author-home img-responsive" style="width: 100%" [src]="url | ds-safe">
+      </a>
+    </div>
+    <div class="col-md-6">
+      <p>
+        <a [href]="link">{{author.name}}</a>
+      </p>
+      <p [innerHTML]="about"></p>
+    </div>
+  </div>
+</div>
