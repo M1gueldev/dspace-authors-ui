@@ -1,1 +1,7 @@
-<p>authors-page works!</p>
+<main class="container">
+  <div id="authors" class="row grid authors" style="">
+    <div class="item" style="" *ngFor="let d of authors">
+      <ds-author-card [author]="d"></ds-author-card>
+    </div>
+  </div>
+</main>
