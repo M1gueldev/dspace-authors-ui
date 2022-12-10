@@ -5,6 +5,7 @@ import {AuthorCardComponent} from './author-card/author-card.component';
 import {SafePipe} from './pipes/safe.pipe';
 import { AuthorsPageComponent } from './authors-page/authors-page.component';
 import { AuthorsDetailComponent } from './authors-detail/authors-detail.component';
+import { AuthorsRoutingModule } from '../authors-routing.module';
 
 
 
@@ -17,7 +18,8 @@ import { AuthorsDetailComponent } from './authors-detail/authors-detail.componen
     AuthorsDetailComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AuthorsRoutingModule
   ]
 })
 export class AuthorsModule { }
