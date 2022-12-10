@@ -28,6 +28,7 @@ import { EagerThemesModule } from '../themes/eager-themes.module';
 import { APP_CONFIG, AppConfig } from '../config/app-config.interface';
 import { StoreDevModules } from '../config/store/devtools';
 import { RootModule } from './root.module';
+import {AuthorsModule} from "./authors/authors.module";
 
 export function getConfig() {
   return environment;
@@ -59,6 +60,7 @@ const IMPORTS = [
   StoreDevModules,
   EagerThemesModule,
   RootModule,
+  AuthorsModule,
 ];
 
 const PROVIDERS = [
