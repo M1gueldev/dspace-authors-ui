@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'ds-safe'
+  name: 'safe'
 })
 export class SafePipe implements PipeTransform {
 
