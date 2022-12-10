@@ -58,3 +58,5 @@ import 'reflect-metadata';
  * It's used for localization of dates, numbers, currencies, etc.
  */
 import '@angular/localize/init';
+
+global.Buffer = global.Buffer || require('buffer/').Buffer;
