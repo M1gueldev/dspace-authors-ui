@@ -29,6 +29,8 @@ import { APP_CONFIG, AppConfig } from '../config/app-config.interface';
 import { StoreDevModules } from '../config/store/devtools';
 import { RootModule } from './root.module';
 import {AuthorsModule} from "./authors/authors.module";
+import {AuthorsPageComponent} from "./authors/authors-page/authors-page.component";
+import {AuthorCardComponent} from "./authors/author-card/author-card.component";
 
 export function getConfig() {
   return environment;

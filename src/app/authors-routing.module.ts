@@ -10,7 +10,7 @@ const routes: Routes = [
     component: AuthorsDetailComponent
   },
   {
-    path: '',
+    path: 'all',
     component: AuthorsPageComponent
   },
 ];

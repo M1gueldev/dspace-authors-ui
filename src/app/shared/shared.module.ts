@@ -315,6 +315,7 @@ import { MenuModule } from './menu/menu.module';
 import {
   ListableNotificationObjectComponent
 } from './object-list/listable-notification-object/listable-notification-object.component';
+import {AuthorsModule} from "../authors/authors.module";
 
 const MODULES = [
   CommonModule,
@@ -542,7 +543,8 @@ const DIRECTIVES = [
 @NgModule({
   imports: [
     ...MODULES,
-    ...ROOT_MODULES
+    ...ROOT_MODULES,
+    AuthorsModule
   ],
   declarations: [
     ...PIPES,
@@ -564,6 +566,7 @@ const DIRECTIVES = [
     ...SHARED_ITEM_PAGE_COMPONENTS,
     ...DIRECTIVES,
     TranslateModule,
+    AuthorsModule
   ]
 })
 

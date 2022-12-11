@@ -16,7 +16,8 @@ export class ThemedHomePageComponent extends ThemedComponent<HomePageComponent> 
   }
 
   protected importThemedComponent(themeName: string): Promise<any> {
-    return import(`../../themes/${themeName}/app/home-page/home-page.component`);
+    //return import(`../../themes/${themeName}/app/home-page/home-page.component`);
+    return import(`./home-page.component`);
   }
 
   protected importUnthemedComponent(): Promise<any> {

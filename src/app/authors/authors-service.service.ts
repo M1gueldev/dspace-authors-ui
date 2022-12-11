@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import {Author, AuthorRequest, localServer} from './utils';
 import {map} from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
-import {Buffer} from 'buffer';
+
+//const Buffer = require('buffer/').Buffer;  // note: the trailing slash is important!
 
 @Injectable({
   providedIn: 'root'

@@ -4,12 +4,14 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Site } from '../core/shared/site.model';
 import { environment } from '../../environments/environment';
+
 @Component({
   selector: 'ds-home-page',
   styleUrls: ['./home-page.component.scss'],
   templateUrl: './home-page.component.html'
 })
 export class HomePageComponent implements OnInit {
+  active = 1;
 
   site$: Observable<Site>;
   recentSubmissionspageSize: number;
