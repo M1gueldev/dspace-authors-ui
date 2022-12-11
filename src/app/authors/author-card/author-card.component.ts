@@ -18,7 +18,7 @@ export class AuthorCardComponent implements OnInit {
     const md = new MarkdownIt();
     this.url = this.author.photoType.concat(',', this.author.photo.toString());
     this.about = md.render(this.author.about).substring(0,255).concat('...');
-    this.link = AuthorsPath.concat('/', this.author.id);
+    this.link = AuthorsPath.concat('/id/', this.author.id);
   }
 
 }

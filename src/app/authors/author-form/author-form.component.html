@@ -1,1 +1,26 @@
-<p>author-form works!</p>
+<div class="container">
+  <div class="form-group row">
+    <label for="formFile" class="col-4 col-form-label">Foto del Autor</label>
+    <div class="col-8">
+      <input class="form-control" type="file" id="formFile" (change)="upload($event)">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="form-author-name" class="col-4 col-form-label">Nombre</label>
+    <div class="col-8">
+      <input #name id="form-author-name" name="text1" type="text" class="form-control" (keyup)="updateName()" >
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="form-author-about" class="col-4 col-form-label">Bibliografia</label>
+    <div class="col-8">
+      <textarea #abt id="form-author-about" name="textarea" cols="40" rows="5" class="form-control" (keyup)="updateAbout()"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="button" class="btn btn-primary" (click)="commit()">Guardar</button>
+    </div>
+  </div>
+  <p>{{message}}</p>
+</div>

@@ -1,4 +1,7 @@
 <main class="container">
+  <div>
+    <a href="/autores/new" *ngIf="(isAdmin | async) === true" class="btn btn-primary">Crear Autor</a>
+  </div>
   <div id="authors" class="row grid authors" style="">
     <div class="item" style="" *ngFor="let d of authors">
       <ds-author-card [author]="d"></ds-author-card>

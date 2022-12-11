@@ -8,12 +8,14 @@ import {AuthorsDetailComponent} from './authors-detail/authors-detail.component'
 import {AuthorsRoutingModule} from '../authors-routing.module';
 import { AuthorCreateComponent } from './author-create/author-create.component';
 import { AuthorEditComponent } from './author-edit/author-edit.component';
+import {SharedModule} from "../shared/shared.module";
 
 const COMPONETS = [
   AuthorFormComponent,
-  AuthorsDetailComponent,
   AuthorsPageComponent,
   AuthorCardComponent,
+  AuthorCreateComponent,
+  AuthorEditComponent,
 ];
 
 
@@ -21,17 +23,15 @@ const COMPONETS = [
   declarations: [
     ...COMPONETS,
     SafePipe,
-    AuthorCreateComponent,
-    AuthorEditComponent,
   ],
   exports: [
     SafePipe,
     ...COMPONETS
   ],
-  imports: [
-    CommonModule,
-    AuthorsRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        AuthorsRoutingModule,
+    ]
 })
 export class AuthorsModule {
 }

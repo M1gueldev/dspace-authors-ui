@@ -1,1 +1,8 @@
-<p>authors-detail works!</p>
+<div class="container">
+  <h1>{{author.name}}</h1>
+  <div class="grid">
+    <img
+          alt="Thumbnail" class="author-home img-responsive" style="width: 100%" [src]="url | safe">
+    <div [innerHTML]="author.about | dsMarkdown | async"></div>
+  </div>
+</div>

@@ -21,6 +21,12 @@ export class AuthorsServiceService {
     return this.http.get<AuthorRequest>(localServer.get.concat(id))
       .pipe(map(value => this.ParseRequest(value)));
   }
+  create(author: AuthorRequest) {
+    return this.http.post(localServer.create, author);
+  }
+  update(author: AuthorRequest) {
+    return this.http.patch(localServer.update, {id: author.id, data: author});
+  }
 
   private ParseRequest = (a: AuthorRequest): Author => {
     return {

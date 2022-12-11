@@ -316,6 +316,7 @@ import {
   ListableNotificationObjectComponent
 } from './object-list/listable-notification-object/listable-notification-object.component';
 import {AuthorsModule} from "../authors/authors.module";
+import {AuthorsDetailComponent} from "../authors/authors-detail/authors-detail.component";
 
 const MODULES = [
   CommonModule,
@@ -363,6 +364,7 @@ const PIPES = [
 
 const COMPONENTS = [
   // put shared components here
+  AuthorsDetailComponent,
   AlertComponent,
   AuthNavMenuComponent,
   ThemedAuthNavMenuComponent,
