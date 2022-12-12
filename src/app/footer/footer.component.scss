@@ -1,4 +1,10 @@
 :host {
+  #jm-footer {
+    color: #fffafc;
+    font-size: 13px;
+    padding: 35px 0;
+    background: #08232b;
+  }
   footer {
     background-color: var(--ds-footer-bg);
     text-align: center;
@@ -43,5 +49,4 @@
     }
   }
 }
-
 

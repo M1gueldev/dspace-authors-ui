@@ -50,7 +50,7 @@
   // "error-page.description.404": "page not found",
   "error-page.description.404": "página no encontrada",
 
-  // "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with DSpace. If the error persists, contact the administrator",
+  // "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with Repositorio Digital. If the error persists, contact the administrator",
   "error-page.orcid.generic-error": "Hubo un error en el login via ORCID. Asegúrese que ha compartido el correo electrónico de su cuenta ORCID con Dspace. Si continuase el error, contacte con el administrador",
 
   // "access-status.embargo.listelement.badge": "Embargo",
@@ -219,8 +219,8 @@
   // "admin.registries.metadata.breadcrumbs": "Metadata registry",
   "admin.registries.metadata.breadcrumbs": "Registro de metadatos",
 
-  // "admin.registries.metadata.description": "The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas. However, DSpace requires the qualified Dublin Core schema.",
-  "admin.registries.metadata.description": "El registro de metadatos mantiene una lista de todos los campos de metadatos disponibles en el repositorio. Estos campos pueden estar divididos entre múltiples esquemas. Sin embargo, DSpace requiere el esquema calificado de Dublin Core.",
+  // "admin.registries.metadata.description": "The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas. However, Repositorio Digital requires the qualified Dublin Core schema.",
+  "admin.registries.metadata.description": "El registro de metadatos mantiene una lista de todos los campos de metadatos disponibles en el repositorio. Estos campos pueden estar divididos entre múltiples esquemas. Sin embargo, Repositorio Digital requiere el esquema calificado de Dublin Core.",
 
   // "admin.registries.metadata.form.create": "Create metadata schema",
   "admin.registries.metadata.form.create": "Crear esquema de metadatos",
@@ -956,7 +956,7 @@
 
   // "bitstream-request-a-copy.intro.bitstream.one": "Requesting the following file: ",
   "bitstream-request-a-copy.intro.bitstream.one": "Solicitando el fichero siguiente: ",
- 
+
   // "bitstream-request-a-copy.intro.bitstream.all": "Requesting all files. ",
   "bitstream-request-a-copy.intro.bitstream.all": "Solicitando todos los ficheros. ",
 
@@ -1470,70 +1470,70 @@
 
   // "collection.source.controls.head": "Harvest Controls",
   "collection.source.controls.head": "Controles de recolección",
-  
+
   // "collection.source.controls.test.submit.error": "Something went wrong with initiating the testing of the settings",
   "collection.source.controls.test.submit.error": "Hubo fallos al realizar las pruebas de comprobación de los ajustes",
-  
+
   // "collection.source.controls.test.failed": "The script to test the settings has failed",
   "collection.source.controls.test.failed": "La prueba de los ajustes ha fallado",
-  
+
   // "collection.source.controls.test.completed": "The script to test the settings has successfully finished",
   "collection.source.controls.test.completed": "El script de prueba de los ajustes ha terminado correctamente ",
-  
+
   // "collection.source.controls.test.submit": "Test configuration",
   "collection.source.controls.test.submit": "Probar la configuración",
-  
+
   // "collection.source.controls.test.running": "Testing configuration...",
   "collection.source.controls.test.running": "Probando la configuración...",
-  
+
   // "collection.source.controls.import.submit.success": "The import has been successfully initiated",
   "collection.source.controls.import.submit.success": "La importación ha comenzado correctamente",
-  
+
   // "collection.source.controls.import.submit.error": "Something went wrong with initiating the import",
   "collection.source.controls.import.submit.error": "Hubo algún fallo al iniciar la importación",
-  
+
   // "collection.source.controls.import.submit": "Import now",
   "collection.source.controls.import.submit": "Importar ahora",
-  
+
   // "collection.source.controls.import.running": "Importing...",
   "collection.source.controls.import.running": "Importando...",
-  
+
   // "collection.source.controls.import.failed": "An error occurred during the import",
   "collection.source.controls.import.failed": "Ha ocurrido un error durante la importación",
-  
+
   // "collection.source.controls.import.completed": "The import completed",
   "collection.source.controls.import.completed": "La importación finalizó",
-  
+
   // "collection.source.controls.reset.submit.success": "The reset and reimport has been successfully initiated",
   "collection.source.controls.reset.submit.success": "La restauración y reimportación ha comenzado correctamente",
-  
+
   // "collection.source.controls.reset.submit.error": "Something went wrong with initiating the reset and reimport",
   "collection.source.controls.reset.submit.error": "Ha ocurrido un error al iniciar la restauración y reimportación",
-  
+
   // "collection.source.controls.reset.failed": "An error occurred during the reset and reimport",
   "collection.source.controls.reset.failed": "Ha ocurrido un error en la restauración y reimportación",
-  
+
   // "collection.source.controls.reset.completed": "The reset and reimport completed",
   "collection.source.controls.reset.completed": "Restauración y reimportación finalizadas",
-  
+
   // "collection.source.controls.reset.submit": "Reset and reimport",
   "collection.source.controls.reset.submit": "Restauración y reimportación",
-  
+
   // "collection.source.controls.reset.running": "Resetting and reimporting...",
   "collection.source.controls.reset.running": "Restaurando y reimportando...",
-  
+
   // "collection.source.controls.harvest.status": "Harvest status:",
   "collection.source.controls.harvest.status": "Estado de la Recolección:",
-  
+
   // "collection.source.controls.harvest.start": "Harvest start time:",
   "collection.source.controls.harvest.start": "Comienzo de la recolección:",
-  
+
   // "collection.source.controls.harvest.last": "Last time harvested:",
   "collection.source.controls.harvest.last": "Fecha de la última recolección:",
-  
+
   // "collection.source.controls.harvest.message": "Harvest info:",
   "collection.source.controls.harvest.message": "Información de recolección:",
-  
+
   // "collection.source.controls.harvest.no-information": "N/A",
   "collection.source.controls.harvest.no-information": "N/A",
 
@@ -2011,8 +2011,8 @@
   // "dso-selector.set-scope.community.head": "Select a search scope",
   "dso-selector.set-scope.community.head": "Seleccione un ámbito de búsqueda",
 
-  // "dso-selector.set-scope.community.button": "Search all of DSpace",
-  "dso-selector.set-scope.community.button": "Buscar en todo  DSpace",
+  // "dso-selector.set-scope.community.button": "Search all of Repositorio Digital",
+  "dso-selector.set-scope.community.button": "Buscar en todo  Repositorio Digital",
 
   // "dso-selector.set-scope.community.input-header": "Search for a community or collection",
   "dso-selector.set-scope.community.input-header": "Busque una comunidad o colección",
@@ -2151,8 +2151,8 @@
   // "footer.copyright": "copyright © 2002-{{ year }}",
   "footer.copyright": "copyright © 2002 - {{ year }}",
 
-  // "footer.link.dspace": "DSpace software",
-  "footer.link.dspace": "Software DSpace",
+  // "footer.link.dspace": "Repositorio Digital software",
+  "footer.link.dspace": "Software Repositorio Digital",
 
   // "footer.link.lyrasis": "LYRASIS",
   "footer.link.lyrasis": "LYRASIS",
@@ -2479,8 +2479,8 @@
   // "home.title": "Home",
   "home.title": "Inicio",
 
-  // "home.top-level-communities.head": "Communities in DSpace",
-  "home.top-level-communities.head": "Comunidades en DSpace",
+  // "home.top-level-communities.head": "Communities in Repositorio Digital",
+  "home.top-level-communities.head": "Comunidades en Repositorio Digital",
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Seleccione una comunidad para explorar sus colecciones.",
@@ -2529,7 +2529,7 @@
   // "info.feedback.title": "Feedback",
   "info.feedback.title": "Sugerencias",
 
-  // "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
+  // "info.feedback.info": "Thanks for sharing your feedback about the Repositorio Digital system. Your comments are appreciated!",
   "info.feedback.info": "Gracias por compartir sus sugerencias sobre el repositorio. ¡Tendremos en cuenta sus comentarios!",
 
   // "info.feedback.email_help": "This address will be used to follow up on your feedback.",
@@ -3725,8 +3725,8 @@
   // "login.form.forgot-password": "Have you forgotten your password?",
   "login.form.forgot-password": "¿Has olvidado tu contraseña?",
 
-  // "login.form.header": "Please log in to DSpace",
-  "login.form.header": "Inicie sesión en DSpace",
+  // "login.form.header": "Please log in to Repositorio Digital",
+  "login.form.header": "Inicie sesión en Repositorio Digital",
 
   // "login.form.new-user": "New user? Click here to register.",
   "login.form.new-user": "¿Nuevo Usuario? Pulse aquí para registrarse",
@@ -3757,8 +3757,8 @@
 
 
 
-  // "logout.form.header": "Log out from DSpace",
-  "logout.form.header": "Cerrar sesión en DSpace",
+  // "logout.form.header": "Log out from Repositorio Digital",
+  "logout.form.header": "Cerrar sesión en Repositorio Digital",
 
   // "logout.form.submit": "Log out",
   "logout.form.submit": "Cerrar sesión",
@@ -3810,8 +3810,8 @@
   // "menu.section.browse_community_by_title": "By Title",
   "menu.section.browse_community_by_title": "Por titulo",
 
-  // "menu.section.browse_global": "All of DSpace",
-  "menu.section.browse_global": "Todo DSpace",
+  // "menu.section.browse_global": "All of Repositorio Digital",
+  "menu.section.browse_global": "Todo Repositorio Digital",
 
   // "menu.section.browse_global_by_author": "By Author",
   "menu.section.browse_global_by_author": "Por autor",
@@ -4022,16 +4022,16 @@
 
   // "metadata-export-search.tooltip": "Export search results as CSV",
   "metadata-export-search.tooltip": "Exportar los resultados de búsqueda a CSV",
-  
+
   // "metadata-export-search.submit.success": "The export was started successfully",
   "metadata-export-search.submit.success": "La exortación ha comenzado satisfactoriamente",
-  
+
   // "metadata-export-search.submit.error": "Starting the export has failed",
   "metadata-export-search.submit.error": "Ha fallado el comienzo de la exportación",
 
 
-  // "mydspace.breadcrumbs": "MyDSpace",
-  "mydspace.breadcrumbs": "Mi DSpace",
+  // "mydspace.breadcrumbs": "MyRepositorio Digital",
+  "mydspace.breadcrumbs": "Mi Repositorio Digital",
 
   // "mydspace.description": "",
   "mydspace.description": "",
@@ -4115,7 +4115,7 @@
   "mydspace.results.no-uri": "Sin Uri",
 
   // "mydspace.search-form.placeholder": "Search in mydspace...",
-  "mydspace.search-form.placeholder": "Buscar en Mi DSpace...",
+  "mydspace.search-form.placeholder": "Buscar en Mi Repositorio Digital...",
 
   // "mydspace.show.workflow": "Workflow tasks",
   "mydspace.show.workflow": "Tareas del flujo de trabajo",
@@ -4138,8 +4138,8 @@
   // "mydspace.status.workspace": "Workspace",
   "mydspace.status.workspace": "Espacio de trabajo",
 
-  // "mydspace.title": "MyDSpace",
-  "mydspace.title": "Mi DSpace",
+  // "mydspace.title": "MyRepositorio Digital",
+  "mydspace.title": "Mi Repositorio Digital",
 
   // "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
   "mydspace.upload.upload-failed": "Error al crear un nuevo espacio de trabajo. Verifique el contenido cargado antes de volver a intentarlo.",
@@ -4161,8 +4161,8 @@
 
 
 
-  // "nav.browse.header": "All of DSpace",
-  "nav.browse.header": "Todo DSpace",
+  // "nav.browse.header": "All of Repositorio Digital",
+  "nav.browse.header": "Todo Repositorio Digital",
 
   // "nav.community-browse.header": "By Community",
   "nav.community-browse.header": "Por comunidad",
@@ -4179,8 +4179,8 @@
   // "nav.main.description": "Main navigation bar",
   "nav.main.description": "Barra de navegación principal",
 
-  // "nav.mydspace": "MyDSpace",
-  "nav.mydspace": "Mi DSpace",
+  // "nav.mydspace": "MyRepositorio Digital",
+  "nav.mydspace": "Mi Repositorio Digital",
 
   // "nav.profile": "Profile",
   "nav.profile": "Perfil",
@@ -4671,8 +4671,8 @@
   // "register-page.registration.header": "New user registration",
   "register-page.registration.header": "Registro de nuevo usuario",
 
-  // "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
-  "register-page.registration.info": "Registre una cuenta para suscribirse a colecciones y recibir actualizaciones por correo electrónico, así como enviar nuevos ítems a DSpace.",
+  // "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to Repositorio Digital.",
+  "register-page.registration.info": "Registre una cuenta para suscribirse a colecciones y recibir actualizaciones por correo electrónico, así como enviar nuevos ítems a Repositorio Digital.",
 
   // "register-page.registration.email": "Email Address *",
   "register-page.registration.email": "Dirección de correo electrónico *",
@@ -4770,11 +4770,11 @@
   // "repository.image.logo": "Repository logo",
   "repository.image.logo": "Logotipo del repositorio",
 
-  // "repository.title.prefix": "DSpace Angular :: ",
-  "repository.title.prefix": "DSpace Angular ::",
+  // "repository.title.prefix": "Repositorio Digital Angular :: ",
+  "repository.title.prefix": "Repositorio Digital Angular ::",
 
-  // "repository.title.prefixDSpace": "DSpace Angular ::",
-  "repository.title.prefixDSpace": "DSpace Angular ::",
+  // "repository.title.prefixRepositorio Digital": "Repositorio Digital Angular ::",
+  "repository.title.prefixRepositorio Digital": "Repositorio Digital Angular ::",
 
 
   // "resource-policies.add.button": "Add",
@@ -5265,8 +5265,8 @@
   // "search.form.search_dspace": "All repository",
   "search.form.search_dspace": "Todo el repositorio",
 
-  // "search.form.scope.all": "All of DSpace",
-  "search.form.scope.all": "Todo DSpace",
+  // "search.form.scope.all": "All of Repositorio Digital",
+  "search.form.scope.all": "Todo Repositorio Digital",
 
   // "search.results.head": "Search Results",
   "search.results.head": "Resultados de la búsqueda",
@@ -5470,11 +5470,11 @@
   // "submission.import-external.title.none": "Import metadata from an external source",
   "submission.import-external.title.none": "Importar metadatos desde una fuente externa",
 
-  // "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to DSpace.",
-  "submission.import-external.page.hint": "Introduzca una consulta arriba para buscar í de la web para importarlos a DSpace.",
+  // "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to Repositorio Digital.",
+  "submission.import-external.page.hint": "Introduzca una consulta arriba para buscar í de la web para importarlos a Repositorio Digital.",
 
-  // "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
-  "submission.import-external.back-to-my-dspace": "Volver a Mi DSpace",
+  // "submission.import-external.back-to-my-dspace": "Back to MyRepositorio Digital",
+  "submission.import-external.back-to-my-dspace": "Volver a Mi Repositorio Digital",
 
   // "submission.import-external.search.placeholder": "Search the external source",
   "submission.import-external.search.placeholder": "Buscar fuente externa",
@@ -5748,7 +5748,7 @@
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalOfPublication": "Local Journals ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalOfPublication": "Revistas locales ({{ count }})",
-  
+
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.Project": "Local Projects ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.Project": "Proyectos locales ({{ count }})",
 
@@ -5772,13 +5772,13 @@
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalIssueOfPublication": "Local Journal Issues ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalIssueOfPublication": "Números de revista locales ({{ count }})",
-  
+
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.JournalIssue": "Local Journal Issues ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.JournalIssue": "Números de revista locales  ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfPublication": "Local Journal Volumes ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfPublication": "Volúmenes de revista locales ({{ count }})",
-  
+
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.JournalVolume": "Local Journal Volumes ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.JournalVolume": "Volúmenes de revista locales ({{ count }})",
 
@@ -5839,13 +5839,13 @@
 
   // "submission.sections.describe.relationship-lookup.title.isJournalIssueOfPublication": "Journal Issues",
   "submission.sections.describe.relationship-lookup.title.isJournalIssueOfPublication": "Numeros de la revista",
-  
+
   // "submission.sections.describe.relationship-lookup.title.JournalIssue": "Journal Issues",
   "submission.sections.describe.relationship-lookup.title.JournalIssue": "Numeros de la revista",
 
   // "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfPublication": "Journal Volumes",
   "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfPublication": "Volúmenes de la revista",
-  
+
   // "submission.sections.describe.relationship-lookup.title.JournalVolume": "Journal Volumes",
   "submission.sections.describe.relationship-lookup.title.JournalVolume": "Volúmenes de la revista",
 
@@ -5857,7 +5857,7 @@
 
   // "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Funding Agency",
   "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Agencia financiadora",
-  
+
   // "submission.sections.describe.relationship-lookup.title.Project": "Projects",
   "submission.sections.describe.relationship-lookup.title.Project": "Proyectos",
 
@@ -5902,7 +5902,7 @@
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfPublication": "Selected Journal Volume",
   "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfPublication": "Volumen de revista seleccionada",
-  
+
   // "submission.sections.describe.relationship-lookup.selection-tab.title.Project": "Selected Projects",
   "submission.sections.describe.relationship-lookup.selection-tab.title.Project": "Proyectos seleccionados",
 
@@ -5926,7 +5926,7 @@
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalIssueOfPublication": "Selected Issue",
   "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalIssueOfPublication": "Número de revista seleccionados",
-  
+
   // "submission.sections.describe.relationship-lookup.selection-tab.title.JournalVolume": "Selected Journal Volume",
   "submission.sections.describe.relationship-lookup.selection-tab.title.JournalVolume": "Volúmenes de revista seleccionados  ",
 
@@ -5935,7 +5935,7 @@
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isFundingOfPublication": "Selected Funding",
   "submission.sections.describe.relationship-lookup.selection-tab.title.isFundingOfPublication": "Financiamientos seleccionados",
-  
+
   // "submission.sections.describe.relationship-lookup.selection-tab.title.JournalIssue": "Selected Issue",
   "submission.sections.describe.relationship-lookup.selection-tab.title.JournalIssue": "Número seleccionado",
 
@@ -6222,7 +6222,7 @@
 
   // "submission.sections.accesses.form.discoverable-description": "When checked, this item will be discoverable in search/browse.   When unchecked, the item will only be available via a direct link and will never appear in search/browse.",
   "submission.sections.accesses.form.discoverable-description": "Si lo marca, el ítem será detectable en el buscador/navegador. Si lo desmarca, el ítems solo estará disponible mediante el enlace directo, y no aparecerá en el buscador/navegador.",
- 
+
  // "submission.sections.accesses.form.discoverable-label": "Discoverable",
   "submission.sections.accesses.form.discoverable-label": "Detectable",
 
@@ -6479,8 +6479,8 @@
 
 
 
-  // "title": "DSpace",
-  "title": "DSpace",
+  // "title": "Repositorio Digital",
+  "title": "Repositorio Digital",
 
 
 
@@ -6917,7 +6917,7 @@
 
   // "person.page.orcid.sync-queue.send.validation-error.organization.city-required": "The address of the organization to be sent requires a city",
   "person.page.orcid.sync-queue.send.validation-error.organization.city-required": "Se requiere que la dirección de la organización tenga una ciudad",
-  
+
   // "person.page.orcid.sync-queue.send.validation-error.organization.country-required": "The address of the organization to be sent requires a valid 2 digits ISO 3166 country",
   "person.page.orcid.sync-queue.send.validation-error.organization.country-required": "Se requiere que la dirección de la organización tenga un código de pais de 2 dígitos ISO 3166 válido",
 
@@ -6926,7 +6926,7 @@
 
   // "person.page.orcid.sync-queue.send.validation-error.disambiguated-organization.value-required": "The organization's identifiers requires a value",
   "person.page.orcid.sync-queue.send.validation-error.disambiguated-organization.value-required": "Se requiere que los identificadores de la organización tengan un valor",
-  
+
   // "person.page.orcid.sync-queue.send.validation-error.disambiguation-source.required": "The organization's identifiers requires a source",
   "person.page.orcid.sync-queue.send.validation-error.disambiguation-source.required": "Se requiere que los identificadores de la organización tengan una fuente",
 

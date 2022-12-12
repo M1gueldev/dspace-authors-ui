@@ -17,9 +17,15 @@
       <textarea #abt id="form-author-about" name="textarea" cols="40" rows="5" class="form-control" (keyup)="updateAbout()"></textarea>
     </div>
   </div>
-  <div class="form-group row">
-    <div class="offset-4 col-8">
+  <div class="form-group row" style="width: 100%; gap: 1rem; flex-direction: row-reverse">
+    <div class="">
       <button name="submit" type="button" class="btn btn-primary" (click)="commit()">Guardar</button>
+    </div>
+    <div class="" *ngIf="edit">
+      <button name="submit" type="button" class="btn btn-primary" (click)="delete()">Eliminar</button>
+    </div>
+    <div class="">
+      <a href="/home" class="btn btn-primary" (click)="commit()">Cancelar</a>
     </div>
   </div>
   <p>{{message}}</p>

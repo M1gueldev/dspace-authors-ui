@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {AuthorsServiceService} from '../authors-service.service';
 import {
   SiteAdministratorGuard
-} from "../../core/data/feature-authorization/feature-authorization-guard/site-administrator.guard";
-import {ActivatedRoute, Router} from "@angular/router";
+} from '../../core/data/feature-authorization/feature-authorization-guard/site-administrator.guard';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'ds-authors-page',

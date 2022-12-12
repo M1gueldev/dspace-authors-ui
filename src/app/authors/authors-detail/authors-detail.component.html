@@ -5,4 +5,7 @@
           alt="Thumbnail" class="author-home img-responsive" style="width: 100%" [src]="url | safe">
     <div [innerHTML]="author.about | dsMarkdown | async"></div>
   </div>
+  <div *ngIf="(isAdmin | async) === true">
+    <a href="/autores/edit/{{author.id}}" *ngIf="(isAdmin | async) === true" class="btn btn-primary">Editar Autor</a>
+  </div>
 </div>

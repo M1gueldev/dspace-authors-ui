@@ -17,3 +17,16 @@
   line-height: 1.5;
   color: var(--bs-link-color);
 }
+
+:host {
+  .logos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    a, div{
+      display: flex;
+      align-items: center;
+    }
+  }
+}

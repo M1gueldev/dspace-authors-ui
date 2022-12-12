@@ -24,6 +24,6 @@ export const localServer = {
   //get: SERVER.concat('?id='),
   get: SERVER.concat('/get?id='),
   update: SERVER.concat('/update'),
-  delete: SERVER.concat('/delete'),
+  delete: SERVER.concat('/delete?id='),
   all: SERVER.concat('/'),
 };
