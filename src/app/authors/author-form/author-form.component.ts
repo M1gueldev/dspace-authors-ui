@@ -19,7 +19,7 @@ export class AuthorFormComponent implements OnInit{
     return this._author;
   }
   @Input() set author(a: AuthorRequest ) {
-    if (!a) {
+    if (!a || a?.name === '') {
       return;
     }
     this.edit = true;
@@ -37,6 +37,15 @@ export class AuthorFormComponent implements OnInit{
 
   ngOnInit(): void {
     this.isAdmin = this.guard.canActivate(this.route.routerState.snapshot.root, this.route.routerState.snapshot);
+    if (!this._author) {
+      this._author = {
+        name: '',
+        id: '',
+        photoType: '',
+        about: '',
+        photo: '',
+      };
+    }
   }
   updateName = () => {
     this.author.name = this.NameInput.nativeElement.value;

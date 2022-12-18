@@ -3336,11 +3336,11 @@
   "relationships.isFundingAgencyOf.OrgUnit": "Funder",
 
 
-  "repository.image.logo": "Repository logo",
+  "repository.image.logo": "Biblioteca Minedu logo",
 
-  "repository.title.prefix": "DSpace Angular :: ",
+  "repository.title.prefix": "Biblioteca Minedu :: ",
 
-  "repository.title.prefixDSpace": "DSpace Angular ::",
+  "repository.title.prefixDSpace": "Biblioteca Minedu ::",
 
 
   "resource-policies.add.button": "Add",

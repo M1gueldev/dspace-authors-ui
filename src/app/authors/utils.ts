@@ -14,7 +14,8 @@ export interface AuthorRequest {
   photoType: string
 }
 
-const SERVER = 'http://localhost:8000/authors';
+//const SERVER = 'http://localhost:8000/authors';
+const SERVER = 'https://194.113.75.239/api-autores';
 export const AuthorsRoute = 'autores';
 export const AuthorsPath = '/'.concat(AuthorsRoute);
 
